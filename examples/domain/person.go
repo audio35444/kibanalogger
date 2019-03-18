@@ -4,7 +4,7 @@ import "github.com/audio35444/kibanalogger"
 
 type Person struct {
 	Name    string `json:"name"`
-	Sorname string `json:"sorname" kibana:"last_name"`
+	Surname string `json:"surname" kibana:"last_name"`
 	Age     int32  `json:"age" kibana:"age"`
 }
 
